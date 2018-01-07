@@ -1,0 +1,173 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  font-family: 'Petrona', serif, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  --marble-color: #fffcf0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+#container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#splash {
+  padding-right: 60px;
+  padding-left: 60px;
+  border-radius: 6px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-bottom: 30px;
+  background: rgba(200,200,200,0.8);
+  text-align: center;
+}
+
+#title {
+  display: flex;
+  flex-direction: row;
+  background-image: url(marble-bg1.png);
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+#title div {
+  flex: 1;
+}
+
+#title .olive-branch {
+  flex: 0.1;
+}
+
+#title img {
+  max-width:100%;
+}
+
+#splash h2 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+
+#splash p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+#coin-icon {
+  max-height: 45vh;
+}
+
+#buy-now {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  padding: 14px 24px;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+#buy-now:hover {
+  outline: 0;
+  text-decoration: none;
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+#buy-now:focus {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #255625;
+  text-decoration: none;
+}
+
+#buy-now:active {
+  background-image: none;
+  text-decoration: none;
+}
+
+#forum {
+  position: absolute;
+  top: 0;
+  max-height: 100vh;
+  min-width: 100vw;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+#education {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+}
+
+#education section {
+  display:flex;
+  flex-direction: row;
+}
+
+#education section div {
+  display:flex;
+  flex-direction: column;
+  flex: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#education h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+#education p {
+  font-size: 16px;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  color: #23527c;
+  text-decoration: underline;
+  outline: 0;
+}
+
+footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+  #container {
+    width: 750px;
+  }
+}
