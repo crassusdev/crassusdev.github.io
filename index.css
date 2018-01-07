@@ -7,7 +7,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
-  --marble-color: #fffcf0;
+  --marble-color: #525252;
 }
 
 p {
@@ -53,9 +53,9 @@ p {
 }
 
 #splash h2 {
-  padding-top: 10px;
-  padding-bottom: 30px;
   font-size: 30px;
+  color: white;
+  text-shadow: -1px -1px 0 var(--marble-color), 2px -1px 0 var(--marble-color), -1px 2px 0 var(--marble-color), 2px 2px 0 var(--marble-color);
 }
 
 #splash p {
