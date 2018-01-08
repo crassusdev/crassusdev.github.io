@@ -159,6 +159,12 @@ a:hover {
   outline: 0;
 }
 
+#crassus-foundation{
+  margin-top: 31px;
+  padding-top: 19px;
+  border-top: 1px solid #e5e5e5;
+}
+
 footer {
   padding-top: 19px;
   color: #777;
