@@ -190,3 +190,8 @@ footer {
     max-height: 45vw;
   }
 }
+
+#forum-wrapper{
+  width: 100%;
+  overflow: hidden;
+}
