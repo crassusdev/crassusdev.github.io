@@ -8,12 +8,15 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
-  overflow-x: hidden;
   --marble-color: #525252;
 }
 
 p {
   margin: 0 0 10px;
+}
+
+#innerBody {
+  overflow-x: hidden;
 }
 
 #container {
@@ -174,7 +177,13 @@ footer {
   border-top: 1px solid #e5e5e5;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 991px) {
+  /* start of large tablet styles */
+
+}
+
+@media screen and (max-width: 767px) {
+  
   #container {
     width: initial;
   }
@@ -190,6 +199,13 @@ footer {
   #coin-icon {
     max-height: 45vw;
   }
+}
+
+@media screen and (max-width: 479px) {
+}
+
+@media (max-width: 768px) {
+  
 }
 
 #forum-wrapper{
