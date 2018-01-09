@@ -7,6 +7,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+  overflow-x: hidden;
   --marble-color: #525252;
 }
 
@@ -19,6 +20,7 @@ p {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  width: 750px;
 }
 
 #splash {
@@ -171,8 +173,20 @@ footer {
   border-top: 1px solid #e5e5e5;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #container {
-    width: 750px;
+    width: initial;
+  }
+
+  #education section {
+    flex-direction: column;
+  }
+
+  #education section div {
+    flex: initial;
+  }
+
+  #coin-icon {
+    max-height: 45vw;
   }
 }
