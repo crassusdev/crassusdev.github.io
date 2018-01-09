@@ -1,6 +1,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  position: relative;
   margin: 0;
   font-family: 'Petrona', serif, "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
@@ -192,6 +193,10 @@ footer {
 }
 
 #forum-wrapper{
-  width: 100%;
-  overflow: hidden;
+  width: 100vw;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
 }
